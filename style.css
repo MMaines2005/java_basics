@@ -6,9 +6,9 @@
 .background-main{
     position: relative;
     display: flex;
-    background-color: #000744;
+    background-color: #12355B;
     width: 970px;
-    height: 650px;
+    height: 670px;
 }
 .p1{
     color: #BFD7EA;
@@ -39,7 +39,7 @@
 .informational {
     align-items:center;
     border-radius: 20px;
-    top:550px;
+    top:600px;
     margin: 10px;
     position: absolute;
     display: inline-block;
@@ -51,13 +51,13 @@
 .content{
 
     border-radius: 20px;
-    align-items: center;
+    align-items: flex-start;
     position: absolute;
     background-color: #0C1821;
     display:flex;
     flex-direction: column;
     width: 710px;
-    height: 390px;
+    
     top: 140px;
     left:230px;
     margin: 10px;
@@ -89,7 +89,9 @@ ul, li{
     font-size: small;
     
 }
-.flexitem {
+.content p5{
+    font-weight: bold;
+    font-size: larger;
     align-items: center;
     justify-content: flex-start;
     color: #CCEBEE;
@@ -97,7 +99,7 @@ ul, li{
 }
 
 .content p2 {
-    
+    margin: 10px;
     font-size: small;
     color: #5BD7EA;
     word-wrap: normal;
