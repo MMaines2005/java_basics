@@ -11,7 +11,7 @@
     height: 650px;
 }
 .p1{
-    color: #d2ecfe;
+    color: #BFD7EA;
     font-size: 36px;
     position: absolute;
     top:-10px;
@@ -22,14 +22,14 @@
     position: absolute;
     border-radius: 15px;
     margin: 20px;
-    background-color: #cb0000;
+    background-color: #D72638;
     width: 930px;
     height: 100px;
 }
 .nav{
     margin: 5px;
     border-radius: 20px;
-    background-color: #009EAE;
+    background-color: #087E8B;
     position: relative;
     width: 180px;
     height: 230px;
@@ -49,11 +49,13 @@
     
 }
 .content{
+
     border-radius: 20px;
     align-items: center;
     position: absolute;
-    background-color: #14101d;
-    display:block;
+    background-color: #0C1821;
+    display:flex;
+    flex-direction: column;
     width: 710px;
     height: 390px;
     top: 140px;
@@ -70,13 +72,46 @@ h6{
   
 }
 a{
-    align-items:flex;
     display: inline-block;
     color: #F8F8F9;
     text-decoration: underline;
 }
+.nav li{
+    white-space: nowrap;
+    position: relative;
+    left: -10px;
+    text-decoration: underline;
+}
 ul, li{
-    color: #00e4f0;
+    flex: 1;
+    
+    color: #52DEE5;;
     font-size: small;
+    
+}
+.flexitem {
+    align-items: center;
+    justify-content: flex-start;
+    color: #CCEBEE;
+    margin: 10px;
+}
+
+.content p2 {
+    
+    font-size: small;
+    color: #5BD7EA;
+    word-wrap: normal;
+}
+.content p3{
+    font-size:small;
+    color: #6F6FB2;
+    text-decoration: none;
+    text-align: center;
+}
+.content p4{
+    color: #52DEDE;
+    font-size:small;
+    margin:10px;
+    text-align: left;
     text-decoration: underline;
 }
